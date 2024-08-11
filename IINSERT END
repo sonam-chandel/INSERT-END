@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+    int i,a[100],n,new;
+    printf("enter size of array");
+    scanf("%d",&n);
+    printf("enter element");
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    printf("enter the element you want to insert at end");
+    scanf("%d",&new);
+a[n]=new;
+    for(i=0;i<=n;i++){
+        printf("array elememt are:%d\n",a[i]);
+    }
+    return 0;
+}
